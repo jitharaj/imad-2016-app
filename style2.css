@@ -1,0 +1,58 @@
+
+body, html {
+    height: 100%;
+}
+
+h1 {font-family: "Lato", sans-serif;
+    text-align: center;font-size:200%;
+}
+h2,h3,h4 {font-family: "Lato", sans-serif;
+    text-decoration: underline;
+}
+.parallax{
+    /* The image used */
+    background-image:url(p1.jpg);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+#page-wrap {
+  margin: 150px auto;
+  width: 500px;
+  text-align:left;
+  
+}
+
