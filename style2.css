@@ -10,7 +10,7 @@ h2,h3,h4 {font-family: "Lato", sans-serif;    text-decoration: underline;font si
 }
 .parallax{
     /* The image used */
-    background-image:url(p1.jpg);
+    background-image:url(girl.png);
 
     /* Full height */
     height: 100%; 
