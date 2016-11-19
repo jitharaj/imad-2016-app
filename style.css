@@ -1,0 +1,41 @@
+body ,html
+{height:100%;}
+h1 {font-family: "Lato", sans-serif;
+    text-align: center;font-size:200%;
+}
+h2,h3,h4 {font-family: "Lato", sans-serif;
+    text-decoration: underline;
+}
+#bimage{
+    background-image:url(g5.jpg);
+  height:100%;
+    
+    background-position: top;
+    background-repeat: no-repeat;
+    bakground-size:cover;
+}    
+
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
